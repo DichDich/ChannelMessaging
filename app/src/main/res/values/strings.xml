@@ -1,0 +1,8 @@
+﻿<resources>
+    <string name="app_name">ChannelMessaging</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="connexionInfo">Connecte-toi pour accéder à la messagerie instantanée</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

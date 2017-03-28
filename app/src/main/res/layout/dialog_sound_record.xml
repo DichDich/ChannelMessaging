@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="5dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_btn_speak_now"
+            android:id="@+id/btnPlay"
+            android:tint="@color/white"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_stop_black_24dp"
+            android:id="@+id/btnPause"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="50dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_media_play"
+            android:id="@+id/btnPreview"
+            />
+    </LinearLayout>
+
+</LinearLayout>
